@@ -1,9 +1,17 @@
 import React from "react";
+import Header from "../components/Header";
+import Gallery from "../components/Gallery";
+import MidSection from "../components/MidSection";
+import News from "../components/News";
 
-export default function Home(params) {
+export default function Home() {
     return(
         <>
-        <div>Este es el home</div>
+        <Header/>
+        <News/>
+        <MidSection/>
+        <Gallery/>
+        
         </>
     )
 }

@@ -1,11 +1,12 @@
 import React from "react";
+import HeaderBlog from "../components/blogComponents/HeaderBlog";
+import BodyBlog from "../components/blogComponents/BodyBlog";
 
 export default function Blog() {
     return(
         <>
-        <div>
-            Este es el Blog
-       </div>
+          <HeaderBlog/>
+          <BodyBlog/>
             </>
     )
 }

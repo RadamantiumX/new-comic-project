@@ -1,0 +1,129 @@
+/*Header Blog*/
+.blog-section-head{
+    height: 20vh;
+    background: #e74c3c;
+}
+
+/*Fin Header Blog*/
+
+/*Body Blog*/
+.blog-section-body{
+    height: 140vh;
+}
+.post-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.record-box{
+    
+    width: 900px;
+    height: 300px;
+    color: #fff;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-image 1s;
+}
+.record-box:hover{
+    background-image: linear-gradient(to top, rgba(35, 11, 75, 0.5)0%,rgba(55, 51, 77, 0.7)100%);
+}
+
+.post-title{
+    color: #e74c3c;
+    
+}
+
+
+.button-bx{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px; 
+}
+
+/* CSS */
+.button-58 {
+  align-items: center;
+  background-color: rgb(238, 131, 8);
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 5px;
+}
+
+.button-58:focus {
+  color: #171e29;
+}
+
+.button-58:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+.button-58:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-58 {
+    min-width: 170px;
+  }
+}
+/*Fin Body Blog*/
+
+/*Post body*/
+.post-section{
+    height: 80vh;
+}
+.post-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Fin Post Body*/
+
+
+@media screen and (max-width: 500px) {
+    .blog-section-head{
+        height: 30vh;
+        
+    }
+    .base-box{
+        align-content: center;
+        margin-top: 126px;
+        margin-left: 2px;
+    }
+    .btn-blog{
+        width: 100px;
+        height: 60px;
+        margin-left: 15px;
+    }
+
+}
